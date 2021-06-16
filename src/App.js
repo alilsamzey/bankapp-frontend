@@ -9,7 +9,7 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
+  
 } from "react-router-dom";
 
 function App() {
@@ -22,7 +22,7 @@ function App() {
         <Route>
           <Home exact path="/" />
         </Route>
-        <Route exact path="/">
+        <Route exact  Link path="/">
           <About />
         </Route>
       </Switch>
