@@ -12,7 +12,7 @@ function Banner() {
         <input type="radio" name="fancy" value="hearts" id="hearts" />
         <input type="radio" name="fancy" value="spades" id="spades" />
        			
-        <label for="clubs">&#9827; Clubs</label><label for="hearts">&#9829; Hearts</label><label for="spades">&#9824; Spades</label><label for="diamonds">&#9830; Diamonds</label>
+        <label for="clubs"></label><label for="hearts"></label><label for="spades"></label><label for="diamonds"></label>
 
 
         <div className="keys">Use left and right keys to navigate</div>
