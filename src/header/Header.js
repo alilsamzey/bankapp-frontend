@@ -19,8 +19,7 @@ function Header() {
     
     </div>
     <div className="push">
-    
-    
+        
     <Nav  >
     <Nav.Link  href="#home">Contact</Nav.Link>
     <Nav.Link  href="#features">Sign In</Nav.Link>
@@ -31,12 +30,7 @@ function Header() {
     
     
   </Navbar>
-   
-    
-    
-     
-    
-         
+      
       </div>
       
       <div>
