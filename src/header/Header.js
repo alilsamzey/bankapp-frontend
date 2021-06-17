@@ -12,10 +12,10 @@ function Header() {
 
     <div className="header">
       
-    <div>
+    <div >
     
    
-    <Navbar className="justify-content-end gen"     >
+    <Navbar className="justify-content-end gen "     >
     <div className="logo-div">
     <Image className="he ustify-content-start" src={banklogo} />
     
