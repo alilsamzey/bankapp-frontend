@@ -21,7 +21,7 @@ function Header() {
     <div className="push">
         
     <Nav  >
-    <Nav.Link  href="#home">Contact</Nav.Link>
+    
     <Nav.Link  href="#features">Sign In</Nav.Link>
     <Nav.Link  href="#home">Register</Nav.Link>
            
