@@ -1,29 +1,33 @@
 import React from 'react'
 import './Header.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import banklogo from "./banklogo.jpg";
+import banklogo from "./image (3).png";
 
 
-import { Navbar, Nav,   Image,     } from 'react-bootstrap';
+
+import { Navbar, Nav, Button,   Image,     } from 'react-bootstrap';
 
 function Header() {
   return (
 
-    <div >
+    <div className="header">
       
-    <div  >
-    
-    <Navbar className="justify-content-end gen" bg="primary"  variant="dark"  >
     <div>
+    
+   
+    <Navbar className="justify-content-end gen"     >
+    <div className="logo-div">
     <Image className="he ustify-content-start" src={banklogo} />
     
     </div>
     <div className="push">
         
     <Nav  >
+    <Nav.Link href="#SignIn"><Button variant="info">Sign In</Button>{' '}</Nav.Link>
+    <Nav.Link href="#register"><Button variant="info">Register</Button>{' '}</Nav.Link>
     
-    <Nav.Link  href="#features">Sign In</Nav.Link>
-    <Nav.Link  href="#home">Register</Nav.Link>
+
+ 
            
     </Nav>
     </div>
@@ -34,10 +38,10 @@ function Header() {
       </div>
       
       <div>
-      <Navbar bg="primary" variant="dark" expand="lg">
+      <Navbar >
     
     <div>
-     <Navbar.Brand href="#home">ANATOLIEN BANK</Navbar.Brand>
+     <Navbar.Brand href="#home">BANK OF ANATOLIA</Navbar.Brand>
     </div>
     <div className="push">
     <Navbar.Toggle aria-controls="basic-navbar-nav" />

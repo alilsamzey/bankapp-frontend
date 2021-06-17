@@ -1,13 +1,22 @@
+.header{
+    width: 85%;
+    margin-left: 8%;
+    background-color:white;
+    
+}
+
+
 .he{
-   height:150px;
+   height:80px;
    margin-top: 15px;
+   margin-bottom: 15px;
    
 }
 .gen{
    
-    height:150px;
+    height:100px;
     display: flex;
-   
+    
 }
 .back{
     background-color:rgb(4, 28, 243);
@@ -15,4 +24,5 @@
 .push{
     margin-left:auto;
 }
+
 
