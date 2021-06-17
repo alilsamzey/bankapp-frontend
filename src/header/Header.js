@@ -5,7 +5,7 @@ import banklogo from "./image (3).png";
 
 
 
-import { Navbar, Nav, Button,   Image,     } from 'react-bootstrap';
+import { Navbar, Nav, Image,     } from 'react-bootstrap';
 
 function Header() {
   return (
