@@ -23,8 +23,8 @@ function Header() {
     <div className="push">
         
     <Nav  >
-    <Nav.Link href="#SignIn"><Button variant="info">Sign In</Button>{' '}</Nav.Link>
-    <Nav.Link href="#register"><Button variant="info">Register</Button>{' '}</Nav.Link>
+    <Nav.Link href="#SignIn">Sign In</Nav.Link>
+    <Nav.Link href="#register">Register</Nav.Link>
     
 
  
@@ -41,7 +41,7 @@ function Header() {
       <Navbar  expand="lg">
     
     <div>
-     <Navbar.Brand href="#home">ANATOLIEN BANK</Navbar.Brand>
+     <Navbar.Brand href="#home">ANATOLIA BANK</Navbar.Brand>
     </div>
     <div className="push">
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
