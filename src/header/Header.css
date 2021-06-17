@@ -1,0 +1,18 @@
+.he{
+   height:150px;
+   margin-top: 15px;
+   
+}
+.gen{
+   
+    height:150px;
+    display: flex;
+   
+}
+.back{
+    background-color:rgb(4, 28, 243);
+}
+.push{
+    margin-left:auto;
+}
+

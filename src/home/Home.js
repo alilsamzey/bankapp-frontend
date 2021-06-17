@@ -1,12 +1,13 @@
 import React from 'react'
-import Banner from "../banner/Banner"
+
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 const Home = ()=>{
 
     return (
         <div className="body">
-            <Banner />
+            
             
         </div>
     )

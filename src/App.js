@@ -2,6 +2,7 @@
 import './App.css';
 import Header from "./header/Header"
 import Home from "./home/Home"
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 import About from "./about/About"
 
