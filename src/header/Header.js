@@ -38,10 +38,10 @@ function Header() {
       </div>
       
       <div>
-      <Navbar >
+      <Navbar  expand="lg">
     
     <div>
-     <Navbar.Brand href="#home">BANK OF ANATOLIA</Navbar.Brand>
+     <Navbar.Brand href="#home">ANATOLIEN BANK</Navbar.Brand>
     </div>
     <div className="push">
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
